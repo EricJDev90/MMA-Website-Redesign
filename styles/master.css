@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: hsla(41, 100%, 90%);
+  background-color: hsla(41, 100%, 90%)!important;
 }
 
 /*Navigation*/
@@ -30,24 +30,47 @@ nav li:hover, nav li a:hover {
 /*Footer*/
 footer {
   background: hsla(0, 100%, 15%);
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
 }
 
 .footer-text {
   color: hsla(41, 100%, 98%);
+  font-size: large;
 }
 
 /*Cards*/
-.card {
+.card img{
+  padding-top: 20px;
+  height: 300px;
+  object-fit: contain;
 }
 
+/*Jumbotron*/
+.jumbotron {
+  width: 100%;
+  height: 45vh;
+  background: url(../images/homepage/bannerimg.jpg) repeat 0 0;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.facebook-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*Screen size definitions*/
 /*1200px*/
 @media screen and (max-width: 1200px){
   nav li {
     text-align: right;
+  }
+
+  .card {
+    margin-top: 15px;
   }
 }
