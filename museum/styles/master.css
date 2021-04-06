@@ -1,0 +1,70 @@
+/*Master CSS*/
+
+footer{
+    background: hsl(0, 100%, 15%);
+}
+
+body{
+    background-color: hsl(41, 100%, 98%);
+}
+
+.alert{
+    background: hsl(0, 79%, 32%);
+    color: hsl(41, 100%, 98%);
+}
+
+
+.footer-text{
+    color:hsl(41, 100%, 98%);
+    font-size: 0.9em;
+}
+
+.copyright-text{
+    color:hsl(0, 0%, 37%);
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.navbar-style{
+    background-color: hsl(41, 100%, 98%);
+    border-bottom: 2px solid;
+    border-color: hsl(0, 98%, 23%);
+}
+
+.dropdown-toggle {
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+.img-circle {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.img-circle-2 {
+    float: right;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+a {
+    color: hsl(0, 100%, 30%)
+}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#7a0000;}
+a.two:hover {font-size:120%;}
+
+hr.dashed {
+    border-top: 3px solid hsl(42, 38%, 85%);
+}
+
+/*Please add your CSS after this line*/
