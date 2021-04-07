@@ -1,11 +1,20 @@
 /*Master CSS*/
 
+/*Fonts*/
+/*heder text and decorative*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+/*body text*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*Fonts end*/
+
 footer{
     background: hsl(0, 100%, 15%);
 }
 
 body{
-    background-color: hsl(41, 100%, 98%);
+
+    background-color: hsl(43, 93%, 94%);
+    font-family: 'PT Sans', sans-serif;
 }
 
 .alert{
@@ -17,6 +26,7 @@ body{
 .footer-text{
     color:hsl(41, 100%, 98%);
     font-size: 0.9em;
+    font-family:'Noto Serif', serif;
 }
 
 .copyright-text{
@@ -31,11 +41,12 @@ body{
     background-color: hsl(41, 100%, 98%);
     border-bottom: 2px solid;
     border-color: hsl(0, 98%, 23%);
+    font-family:'Noto Serif', serif;
 }
 
 .dropdown-toggle {
     padding-left: 10px;
-    padding-right: 10px;  
+    padding-right: 10px;
 }
 
 .img-circle {
@@ -70,7 +81,7 @@ hr.dashed {
 /*Please add your CSS after this line*/
 
 /*Figure custom padding and borders
- - add figure class to parent div and 
+ - add figure class to parent div and
  centered-row to row div*/
 .figure {
     background-color: #C0C0C0;
@@ -91,6 +102,7 @@ figcaption {
 /*Add paragraph-text class to larger bodies of text*/
 .paragraph-text {
     text-indent: 50px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .card img {
