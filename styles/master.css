@@ -68,3 +68,33 @@ hr.dashed {
 }
 
 /*Please add your CSS after this line*/
+
+/*Figure custom padding and borders
+ - add figure class to parent div and 
+ centered-row to row div*/
+.figure {
+    background-color: #C0C0C0;
+    padding: 25px;
+}
+
+.figure img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*Add paragraph-text class to larger bodies of text*/
+.paragraph-text {
+    text-indent: 50px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
