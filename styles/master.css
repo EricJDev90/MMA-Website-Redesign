@@ -17,6 +17,26 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+h1 {
+    font-family:'Noto Serif', serif;
+    color: hsl(0, 100%, 15%);
+}
+
+h2 {
+  font-family:'Noto Serif', serif;
+  color: hsl(0, 100%, 15%);
+}
+
+h3 {
+  font-family:'Noto Serif', serif;
+  color: hsl(0, 100%, 15%);
+}
+
+h4 {
+  font-family:'Noto Serif', serif;
+  color: hsl(0, 100%, 15%);
+}
+
 .alert{
     background: hsl(0, 79%, 32%);
     color: hsl(41, 100%, 98%);
