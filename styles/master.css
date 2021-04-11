@@ -123,6 +123,16 @@ a {
     color: hsl(0, 100%, 30%)
 }
 
+.navigation-logo {
+  width: 400px;
+}
+
+@media screen and (max-width: 720px) {
+  .navigation-logo {
+    width: 300px;
+  }  
+}
+
 a.two:link {color:#ff0000;}
 a.two:visited {color:#7a0000;}
 a.two:hover {font-size:120%;}
