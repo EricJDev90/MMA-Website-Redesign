@@ -42,6 +42,15 @@ h4 {
   padding-top: 15px;
 }
 
+.servicesheader {
+  text-align: center;
+}
+
+.joinpics {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .store_text {
   margin-bottom: 20px;
 }
