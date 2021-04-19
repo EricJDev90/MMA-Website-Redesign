@@ -132,6 +132,11 @@ a {
     color: hsl(0, 100%, 30%)
 }
 
+.nav-link {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
 .navigation-logo {
   width: 400px;
 }
