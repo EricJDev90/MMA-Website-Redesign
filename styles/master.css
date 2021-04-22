@@ -40,6 +40,7 @@ h4 {
 .news-item {
   font-size: 1.5em;
   font-weight: 200;
+  font-family:'Noto Serif', serif;
 }
 
 .store_images {
@@ -111,6 +112,17 @@ h4 {
     font-family:'Noto Serif', serif;
 }
 
+.btn-info {
+  color: white !important;
+  background-color: hsl(0, 100%, 15%);
+  font-family:font-family:'Noto Serif', serif;
+}
+
+.btn {
+  color: white !important;
+  background-color: hsl(0, 100%, 15%);
+}
+
 .dropdown-toggle {
     padding-left: 10px;
     padding-right: 10px;
@@ -149,7 +161,7 @@ a {
 @media screen and (max-width: 720px) {
   .navigation-logo {
     width: 300px;
-  }  
+  }
 }
 
 a.two:link {color:#ff0000;}
