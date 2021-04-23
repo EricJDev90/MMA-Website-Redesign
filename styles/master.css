@@ -37,6 +37,16 @@ h4 {
   color: hsl(0, 100%, 15%);
 }
 
+h5 {
+    font-family:'Noto Serif', serif;
+      color: hsl(0, 100%, 15%);
+}
+
+.h5covid {
+  font-family:'Noto Serif', serif;
+  color:hsl(0, 79%, 32%);
+}
+
 .news-item {
   font-size: 1.5em;
   font-weight: 200;
