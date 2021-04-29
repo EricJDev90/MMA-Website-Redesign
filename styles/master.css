@@ -125,7 +125,7 @@ h5 {
 .btn-info {
   color: white !important;
   background-color: hsl(0, 100%, 15%);
-  font-family:font-family:'Noto Serif', serif;
+  font-family:'Noto Serif', serif;
 }
 
 .btn {
@@ -170,7 +170,7 @@ a {
 
 @media screen and (max-width: 720px) {
   .navigation-logo {
-    width: 300px;
+    width: 250px;
   }
 }
 
