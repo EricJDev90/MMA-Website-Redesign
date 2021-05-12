@@ -17,6 +17,18 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+i {
+  font-size: 20px;
+}
+
 h1 {
     font-family:'Noto Serif', serif;
     color: hsl(0, 100%, 15%);
@@ -41,6 +53,7 @@ h5 {
     font-family:'Noto Serif', serif;
       color: hsl(0, 100%, 15%);
 }
+
 
 .h5covid {
   font-family:'Noto Serif', serif;
@@ -103,8 +116,12 @@ h5 {
 
 .footer-text{
     color:hsl(41, 100%, 98%);
-    font-size: 0.9em;
+    font-size: 1.0em;
     font-family:'Noto Serif', serif;
+}
+
+.footerlinks {
+  color: #BCAC80;
 }
 
 .copyright-text{
@@ -140,8 +157,8 @@ h5 {
 
 .img-circle {
   float: right;
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   position: relative;
   overflow: hidden;
   border-radius: 2%;
@@ -149,15 +166,15 @@ h5 {
 
 .img-circle-2 {
     float: right;
-    width: 120px;
-    height: 120px;
+    width: 240px;
+    height: 240px;
     position: relative;
     overflow: hidden;
     border-radius: 2%;
 }
 
 a {
-    color: #BCAC80;
+    color: #640E27;
 }
 
 .nav-link {
@@ -167,6 +184,19 @@ a {
 
 .navigation-logo {
   width: 400px;
+}
+
+.menubutton {
+  width: 75px;
+  height: auto;
+}
+
+.navbar-light {
+  border-color: #939799 !important;
+}
+.navbar-toggler {
+  border-color: none !important;
+  border: none;
 }
 
 .banner-image {
